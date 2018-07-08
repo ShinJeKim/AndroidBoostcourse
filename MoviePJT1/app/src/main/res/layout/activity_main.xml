@@ -370,7 +370,7 @@
                 <Button
                     android:id="@+id/button4"
                     android:layout_width="65dp"
-                    android:layout_height="20dp"
+     -               android:layout_height="20dp"
                     android:background="#00ffffff"
                     android:text="작성하기"
                     android:textColor="#F35611"
