@@ -1,5 +1,6 @@
 package com.example.kimshinje.toast;
 
+import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.text.Layout;
@@ -47,6 +48,16 @@ public class MainActivity extends AppCompatActivity {
 
             }
         });
+
+
+        Button button3 = (Button) findViewById(R.id.button3);
+        button3.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view) {
+                Snackbar.make(view, "스낵바입니다", Snackbar.LENGTH_LONG).show();
+            }
+        });
+
 
 
 
